@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TakeDown Art</title>
+    <link rel="icon" type="image/icon" href="img/icon7.png">
+
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">TakeDown Art</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="video/boxing1.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Be The Champion</h2>
+            <h5>Do what you born for</h5>
+            <p>We are committed to helping you exceed goals. With our Martial Arts Technique, Indoor Pool, Group Exercise Classes, Basketball court and Fitness equipments.</p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="img/facebook.png" height="80px" width="80px"></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/Twitter.png" height="80px" width="80px"></a>
+            </li>
+            <li>
+                <a href="#"><img src="img/instagram.png" height="80px" width="80px"></a>
+            </li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li style="font-size: 50px; color: cornflowerblue; padding-right:20px;">Welcome</li><br>
+            <li><a href="#">Home</a></li><br>
+            <li><a href="#">About</a></li><br>
+            <li><a href="#">Destination</a></li><br>
+            <li><a href="#">Blog</a></li><br>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
