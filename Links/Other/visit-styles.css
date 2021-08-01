@@ -44,7 +44,6 @@
 .menu ul li {
     font-size: 15px;
     display: inline;
-    font-family: 'Times New Roman', Times, serif;
     transition: all 0.2s ease;
 }
 
@@ -275,7 +274,7 @@
 .about1 p {
     line-height: 30px;
     padding-top: 30px;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 .social001 {
@@ -306,7 +305,7 @@
 
 .Address {
     margin-left: 0px;
-    padding-right: 70px;
+    /* padding-right: 70px; */
     color: white;
     padding-left: 70px;
     background-color: black;
@@ -316,6 +315,7 @@
 
 .Address span {
     color: white;
+    font-size: 18px;
 }
 
 .Address h2 {
@@ -325,7 +325,7 @@
 
 .border200 {
     border-bottom: 2px solid red;
-    margin-right: 270px;
+    margin-right: 330px;
 }
 
 .content001 {

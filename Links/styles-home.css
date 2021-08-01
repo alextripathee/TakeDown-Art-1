@@ -67,7 +67,7 @@
 }
 
 .main {
-    background-image: url('img/bg-box1.jpg');
+    background-image: url('img/back2.jpg');
     background-repeat: no-repeat;
     height: 700px;
     width: 100%;
@@ -85,13 +85,15 @@
     /* text-align: center; */
     padding-top: 100px;
     padding: center;
-    padding-left: 160px;
-    padding-right: 400px;
+    /* padding-left: 260px; */
+    /* padding-right: 400px; */
+    color: white;
+    text-align: center;
 }
 
 .content h1 {
-    color: red;
-    font-size: 70px;
+    color: white;
+    font-size: 50px;
     text-transform: uppercase;
     text-shadow: 2px 6px black;
     padding-bottom: 30px;
@@ -99,70 +101,55 @@
 }
 
 .content p {
-    color: black;
-    font-size: 40px;
+    color: white;
+    font-size: 25px;
     text-shadow: 1px 1px white;
-    padding-left: 30px;
+    padding-left: 300px;
     padding-top: 30px;
-    padding-right: 150px;
+    padding-right: 300px;
     line-height: 50px;
+    color: #F0F0F0	;
 }
 
 .content a {
     text-decoration: none;
 }
 
-.button-64 {
-    align-items: center;
-    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
-    border: 0;
-    border-radius: 8px;
-    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    display: flex;
-    font-family: Phantomsans, sans-serif;
-    font-size: 20px;
-    justify-content: center;
-    line-height: 1em;
-    max-width: 100%;
-    min-width: 140px;
-    padding: 3px;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    cursor: pointer;
-    margin-top: 130px;
-    margin-left: 70px;
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-.button-64:active,
-.button-64:hover {
-    outline: 0;
-}
-
-.button-64 span {
-    background-color: rgb(5, 6, 45);
-    padding: 16px 24px;
-    border-radius: 6px;
-    width: 100%;
-    height: 100%;
-    transition: 300ms;
-}
-
-.button-64:hover span {
-    background: none;
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
 }
 
 @media (min-width: 768px) {
-    .button-64 {
-        font-size: 24px;
-        min-width: 196px;
-    }
+  .button-36 {
+    padding: 0 2.6rem;
+  }
 }
 
+.btn100 {
+    padding-top: 140px;
+}
 .video {
     padding-top: 100px;
     padding-bottom: 70px;
@@ -176,66 +163,67 @@
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 40px;
-    /* grid-gap: 10px; */
     height: auto;
 }
 
 .text {
     grid-column: 1/4;
     height: 50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 90px;
+    padding-top: 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     color: red;
     text-transform: uppercase;
 }
 
 .item1 {
-    margin-left: 35px;
-    margin-right: 25px;
-    width: 400px;
+    margin-left: 25px;
+    /* margin-right: 25px; */
+    width: 350px;
     /* height: auto; */
     border-bottom: 2px solid grey;
 }
 
 .item1 p {
     line-height: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .bold {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 35px;
+    font-size: 20px;
     text-transform: uppercase;
+    color: red;
 }
 
 .box {
-    padding-right: 30px;
+    /* padding-right: 30px; */
     padding-bottom: 20px;
 }
 
 .item2 {
-    width: 400px;
+    width: 350px;
     /* height: auto; */
     border-bottom: 2px solid grey;
 }
 
 .item2 p {
     line-height: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .bold1 {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 35px;
+    font-size: 20px;
     text-transform: uppercase;
+    color: red;
 }
 
 .item3 {
-    width: 400px;
+    width: 350  px;
     /* height: auto; */
     border-bottom: 2px solid grey;
     margin-right: 40px;
@@ -243,19 +231,20 @@
 
 .item3 p {
     line-height: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .bold2 {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 35px;
+    font-size: 20px;
     text-transform: uppercase;
+    color: red;
 }
 
 .item4 {
     padding-top: 60px;
-    width: 400px;
+    width: 350px;
     /* height: auto; */
     margin-left: 30px;
     margin-right: 25px;
@@ -265,12 +254,12 @@
 
 .item4 p {
     line-height: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .item5 {
     /* padding-left: 20px; */
-    width: 400px;
+    width: 350px;
     /* height: auto; */
     padding-top: 60px;
     border-bottom: 2px solid grey;
@@ -279,19 +268,19 @@
 
 .item5 p {
     line-height: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .item6 {
     padding-top: 60px;
-    width: 400px;
+    width: 350px;
     /* height: auto; */
     border-bottom: 2px solid grey;
 }
 
 .item6 p {
     line-height: 25px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .container1 {
@@ -301,7 +290,7 @@
     padding: 10px;
     grid-gap: 30px;
     margin-left: 90px;
-    margin-right: 40px;
+    margin-right: 0px;
     margin-bottom: 40px;
     margin-top: 30px;
 }
@@ -318,12 +307,12 @@
 
 .heading {
     font-size: 40px;
+    line-height: 50px;
 }
 
 .para {
     padding-top: 40px;
-    padding-right: 30px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 25px;
 }
 
@@ -378,6 +367,10 @@
     padding-left: 60px;
 }
 
+.content01 {
+    padding-top: 60px;
+}
+
 .container2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -388,13 +381,16 @@
 .content2 h1 {
     font-size: 50px;
     text-transform: uppercase;
+    line-height: 50px;
+    padding-left: 20px;
 }
 
 .para1 {
-    padding-right: 180px;
+    padding-right: 80px;
     padding-top: 30px;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 40px;
+    padding-left: 20px;
 }
 
 .button-5 {
@@ -443,7 +439,7 @@
 }
 
 .btn1 {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -454,8 +450,7 @@
 }
 
 .container3 h1 {
-    padding-left: 300px;
-    padding-right: 300px;
+    text-align: center;
 }
 
 .logo1 {
@@ -497,7 +492,7 @@
 .about1 p {
     line-height: 30px;
     padding-top: 30px;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 .social001 {
@@ -528,7 +523,7 @@
 
 .Address {
     margin-left: 0px;
-    padding-right: 70px;
+    /* padding-right: 70px; */
     color: white;
     padding-left: 70px;
     background-color: black;
@@ -538,6 +533,7 @@
 
 .Address span {
     color: white;
+    font-size: 18px;
 }
 
 .Address h2 {
@@ -547,7 +543,7 @@
 
 .border200 {
     border-bottom: 2px solid red;
-    margin-right: 270px;
+    margin-right: 330px;
 }
 
 .content001 {
