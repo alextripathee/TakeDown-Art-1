@@ -84,66 +84,114 @@
 
 .content {
     /* text-align: center; */
-    padding-top: 100px;
-    padding: center;
+    padding-top: 110px;
     padding-left: 35px;
     color: white;
     text-align: center;
 }
 
-.content h1 {
-    color: white;
-    font-size: 50px;
+.welcome h1{
+    color: #303030;
+    font-size: 90px;
     text-transform: uppercase;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     padding-left: 30px;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    line-height: 110px;
+    letter-spacing: 10px;
+    -webkit-text-stroke: 0.4vw white;
+}
+
+.div01 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff1a1a;
+    /* color: white; */
+    text-transform: uppercase;
+    -webkit-text-stroke: 0vh white;
+
 }
 
 .content p {
     color: white;
     font-size: 20px;
     padding-left: 300px;
-    padding-top: 30px;
+    padding-top: 70px;
     padding-right: 150px;
     line-height: 30px;
-    color: #F0F0F0	;
+    color: #F0F0F0;
 }
 
 .content a {
     text-decoration: none;
 }
 
-.button-36 {
-  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #FFFFFF;
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-decoration: none;
   cursor: pointer;
-  flex-shrink: 0;
-  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  height: 4rem;
-  padding: 0 1.6rem;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
-  transition: all .5s;
+  background: #fff;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  border-radius: 10px;
 }
 
-.button-36:hover {
-  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
-  transition-duration: .1s;
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
 }
 
-@media (min-width: 768px) {
-  .button-36 {
-    padding: 0 2.6rem;
-  }
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 8px;
+  border-radius: 10px;
+  /* line-height: 13px; */
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
 }
 
 .btn100 {
@@ -151,6 +199,7 @@
     position: relative;
     animation-name: explore;
     animation-duration: 9s;
+    text-align: center;
 }
 
 @keyframes explore {
@@ -176,6 +225,8 @@
     margin-right: 80px;
     margin-top: 40px;
     height: auto;
+    width: fit-content;
+    overflow: hidden;
 }
 
 .text {
@@ -235,7 +286,7 @@
 }
 
 .item3 {
-    width: 350  px;
+    width: 350px;
     /* height: auto; */
     border-bottom: 2px solid grey;
     margin-right: 40px;
@@ -244,6 +295,7 @@
 .item3 p {
     line-height: 25px;
     font-size: 18px;
+    /* padding-right: 40px; */
 }
 
 .bold2 {
