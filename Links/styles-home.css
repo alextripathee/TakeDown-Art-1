@@ -23,6 +23,7 @@
     letter-spacing: 4px;
 }
 
+
 .takedown {
     padding-top: 10px;
 }
@@ -67,7 +68,7 @@
 }
 
 .main {
-    background-image: url('img/back2.jpg');
+    background-image: url('img/boxing-wallpaper.jpg');
     background-repeat: no-repeat;
     height: 700px;
     width: 100%;
@@ -149,6 +150,19 @@
 
 .btn100 {
     padding-top: 140px;
+    position: relative;
+    animation-name: explore;
+    animation-duration: 9s;
+}
+
+@keyframes explore {
+    from {
+        padding-top: 0px;
+    }
+
+    to {
+        padding-left: 0px;
+    }
 }
 .video {
     padding-top: 100px;
