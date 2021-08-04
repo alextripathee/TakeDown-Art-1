@@ -222,11 +222,11 @@
     background-color: #F0F0F0;
     padding: 10px;
     margin-left: 80px;
-    /* margin-right: 80px; */
+    margin-right: 80px;
     margin-top: 40px;
     height: auto;
-    width: fit-content;
-    /* overflow: hidden; */
+    /* width: fit-content; */
+    overflow: hidden;
 }
 
 .text {
