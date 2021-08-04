@@ -227,7 +227,14 @@
     height: auto;
     /* width: fit-content; */
     overflow: hidden;
+    padding-left: 20px;
 }
+
+@media only screen and (min-width: 1500px) {
+    .container {
+        padding-left: 50px;
+    }
+} 
 
 .text {
     grid-column: 1/4;
@@ -242,6 +249,7 @@
 
 .item1 {
     margin-left: 25px;
+    /* padding-left: 35px; */
     /* margin-right: 25px; */
     width: 350px;
     /* height: auto; */
@@ -289,7 +297,7 @@
     width: 350px;
     /* height: auto; */
     border-bottom: 2px solid grey;
-    margin-right: 40px;
+    margin-right: 25px;
 }
 
 .item3 p {
